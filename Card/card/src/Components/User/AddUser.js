@@ -65,7 +65,7 @@ const AddUser = (props) => {
           <input
             id="age"
             type="number"
-            value={enteredAge}
+            value={'${classes.input input} ${enteredAge}'}
             onChange={ageChangeHandler}
           />
           <Button type="submit">Add User</Button>
